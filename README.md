@@ -9,7 +9,7 @@ This is to test the working of any 7-segment display that you may have (common a
 ## _7_segment_using_shift_register ##
 Another program to control a seven segment display using the arduino and 74HC595 (8-bit shift register). Here, only 3 pins from the microcontroller are used instead of 8. Serial data is sent to the shift register.
 
-***PAY ATTENTION: D0 is connected to bit a from the diagram D1-b D2-c D3-d ... and so on.***
+***PAY ATTENTION: D0 is connected to bit "a" from the diagram D1-b D2-c D3-d ... and so on.***
 
 ## adafruit_8LED_74HC595_shift_register##
 This is the mother code explaining how a shift register works. You can also make the register light up LEDs at random (*to make your own disco*). I leave that task to you.
